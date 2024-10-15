@@ -20,7 +20,7 @@ export default function Sidebar() {
 
     return (
         <>
-            <nav
+            <aside
                 className={`${isOpen ? "translate-x-0" : "-translate-x-full"} md:translate-x-0 fixed left-0 top-0 h-full w-16 flex-col justify-center items-center py-8 hidden md:flex space-y-9 bg-[#393e41] transition-transform duration-300 ease-in-out z-40 border border-l-0 border-slate-500 rounded-r-3xl`}
             >
                 {links.map((link) => (
@@ -37,7 +37,7 @@ export default function Sidebar() {
                         </Link>
                     </motion.div>
                 ))}
-            </nav>
+            </aside>
 
             {/* Tab Bar for smaller devices */}
             <nav

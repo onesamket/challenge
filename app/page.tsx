@@ -1,6 +1,6 @@
 
-import LandingPage from '@/components/shared/landing'
-import SkinSelectorSection from '@/components/shared/skin-select'
+import LandingPage from '@/components/sections/landing'
+import SkinSelectorSection from '@/components/sections/skin-select'
 
 export default function HomePage() {
   return (

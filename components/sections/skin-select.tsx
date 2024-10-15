@@ -7,8 +7,8 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Star } from 'lucide-react'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import { SearchBar } from './search-bar'
-import { SkinCard } from './skin-card'
+import { SearchBar } from '../shared/search-bar'
+import { SkinCard } from '../shared/skin-card'
 
 export default function SkinSelectorSection() {
     const [selectedSkin, setSelectedSkin] = useState<Skin>(skins[0])

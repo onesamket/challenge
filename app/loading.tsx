@@ -1,9 +1,6 @@
-import Loader from "@/components/shared/loader";
+import Loader from "@/components/loaders/spinners/loader";
 
 export default function Loading() {
-    return (
-        <main>
-            <Loader />
-        </main>
-    );
+    return <Loader />
+
 }

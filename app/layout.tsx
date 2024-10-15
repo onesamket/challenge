@@ -24,11 +24,13 @@ export default function RootLayout({
       <body className={`${interFont.className} antialiased`}>
         <div className="flex min-h-screen bg-gradient-to-br from-[#393e41] to-[#5c5e5f] text-white">
           <Sidebar />
+          {/* main content  */}
           <div className="flex mb-12 sm:ml-16 sm:mr-64 flex-col">
             <main className="flex-grow p-4 md:p-8   w-full  md:max-w-[calc(100vw-20rem)]">
               {children}
             </main>
           </div>
+          {/* right side bar  */}
           <RightSidebar />
         </div>
       </body>

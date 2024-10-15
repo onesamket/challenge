@@ -4,9 +4,9 @@ import { GunnerMan } from '@/constants/images'
 import { skins } from "@/constants/skin-data"
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
-import DeviceMockup from './device-mockup'
-import { SearchBar } from "./search-bar"
-import { SkinCard } from './skin-card'
+import DeviceMockup from '../shared/device-mockup'
+import { SearchBar } from "../shared/search-bar"
+import { SkinCard } from '../shared/skin-card'
 
 
 export default function LandingPage() {

@@ -31,7 +31,7 @@ export default function RightSidebar() {
     }, [])
 
     return (
-        <>
+        <aside>
             {/* Mobile Menu Toggle Button */}
             <button
                 className="md:hidden fixed top-4 right-4 z-50 p-2 rounded-full text-white transition-colors duration-200"
@@ -122,7 +122,7 @@ export default function RightSidebar() {
                     </div>
                 </div>
             </div>
-        </>
+        </aside>
     )
 }
 
